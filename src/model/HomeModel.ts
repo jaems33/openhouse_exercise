@@ -11,7 +11,7 @@ export class HomeModel {
   private _price: number;
   private _area: number;
   private _type: HomeType;
-  constructor(id: string, communityId: string, price: number, area: number, type: HomeType){
+  constructor(id: string, communityId: string, price: number, area: number, type: HomeType) {
     this._id = id;
     this._communityId = communityId;
     this._price = price;

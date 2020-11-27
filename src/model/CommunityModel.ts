@@ -3,7 +3,7 @@ export class CommunityModel {
   private _name: string;
   private _imgUrl: string;
   private _group: string;
-  constructor(id: string, name: string, imgUrl: string, group: string){
+  constructor(id: string, name: string, imgUrl: string, group: string) {
     this._id = id;
     this._name = name;
     this._imgUrl = imgUrl;

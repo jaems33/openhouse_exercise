@@ -48,7 +48,7 @@ export const Communities = (props: any) => {
     populateData();
   }, []);
 
-  if(errorOccured) {
+  if (errorOccured) {
     return <section className="centerAlignContainer">
       <div>There was an issue loading information from the server.<br />Please try reloading the page.</div>
     </section>;
